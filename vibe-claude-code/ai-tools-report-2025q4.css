@@ -1,0 +1,57 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',Arial,sans-serif;background:#0f1117;color:#e2e8f0;line-height:1.6;padding:24px}
+.container{max-width:900px;margin:0 auto}
+
+/* Header */
+header{background:linear-gradient(135deg,#1e40af,#7c3aed);border-radius:12px;padding:28px 32px;margin-bottom:24px}
+header h1{font-size:1.6rem;font-weight:700;color:#fff;margin-bottom:6px}
+header p{font-size:.85rem;color:#bfdbfe;opacity:.9}
+.badge{display:inline-block;background:rgba(255,255,255,.15);color:#fff;font-size:.75rem;padding:3px 10px;border-radius:20px;margin-top:8px}
+
+/* Section */
+h2{font-size:1.1rem;color:#93c5fd;margin-bottom:14px;padding-bottom:6px;border-bottom:1px solid #1e3a5f}
+.section{background:#161b27;border-radius:10px;padding:22px;margin-bottom:20px;border:1px solid #1e3a5f}
+
+/* Methodology */
+.method-desc{font-size:.83rem;color:#94a3b8;margin-bottom:12px}
+.method-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:8px}
+.method-card{background:#0f172a;border-radius:8px;padding:12px;font-size:.8rem;text-align:center;border:1px solid #1e3a5f}
+.method-card .icon{font-size:1.4rem;margin-bottom:4px}
+.method-card .label{color:#94a3b8;font-size:.72rem;margin-top:2px}
+
+/* Table */
+table{width:100%;border-collapse:collapse;font-size:.83rem}
+thead tr{background:#1e3a5f}
+thead th{padding:10px 12px;text-align:left;color:#93c5fd;font-weight:600}
+tbody tr:nth-child(even){background:#0d1321}
+tbody tr:hover{background:#1a2742;cursor:pointer}
+td{padding:10px 12px;border-bottom:1px solid #1a2742;vertical-align:middle}
+.rank{font-weight:700;color:#fbbf24;font-size:1rem;text-align:center}
+.tool-cell{display:flex;align-items:center;gap:10px}
+.tool-cell img{width:28px;height:28px;border-radius:6px;object-fit:contain;background:#fff;padding:2px}
+.tool-name{font-weight:600;color:#e2e8f0}
+.cat-badge{background:#1e3a5f;color:#7dd3fc;font-size:.7rem;padding:2px 8px;border-radius:10px}
+.mau{color:#34d399;font-size:.8rem;font-weight:600}
+.src-link{color:#818cf8;font-size:.75rem;text-decoration:none}
+.src-link:hover{text-decoration:underline}
+
+/* Chart */
+.chart-row{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:.82rem}
+.chart-label{width:90px;text-align:right;color:#94a3b8;flex-shrink:0}
+.chart-bar-bg{flex:1;background:#1e3a5f;border-radius:4px;height:22px;overflow:hidden}
+.chart-bar{height:100%;border-radius:4px;display:flex;align-items:center;padding-left:8px;font-size:.75rem;font-weight:600;color:#fff;width:0;transition:width .8s cubic-bezier(.4,0,.2,1)}
+
+/* Logo gallery */
+.logo-grid{display:flex;flex-wrap:wrap;gap:14px;margin-top:8px}
+.logo-item{background:#0f172a;border:1px solid #1e3a5f;border-radius:10px;padding:12px 16px;text-align:center;min-width:80px;transition:border-color .2s,transform .2s}
+.logo-item:hover{border-color:#3b82f6;transform:translateY(-2px)}
+.logo-item img{width:36px;height:36px;border-radius:6px;object-fit:contain;background:#fff;padding:2px;display:block;margin:0 auto 6px}
+.logo-item span{font-size:.72rem;color:#94a3b8}
+
+/* Sources */
+.src-list{list-style:none;font-size:.8rem}
+.src-list li{padding:5px 0;border-bottom:1px solid #1a2742;display:flex;align-items:center;gap:6px}
+.src-list li::before{content:'↗';color:#818cf8}
+
+/* Footer */
+footer{text-align:center;color:#475569;font-size:.75rem;margin-top:24px;padding-top:16px;border-top:1px solid #1e3a5f}
